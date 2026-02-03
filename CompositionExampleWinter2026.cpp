@@ -2,10 +2,19 @@
 //
 
 #include <iostream>
+#include "Department.h"
+#include "Address.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	Address dep1Address("Taft", "48901", "Southfield");
+
+	Department hrDept;
+
+	hrDept.setAddress(dep1Address);
+
+	hrDept.getAddress().printAddress();
+	
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
