@@ -6,7 +6,7 @@ private:
 	Address deptAddress;
 public:
 	void setAddress(Address a);
-	Address getAddress();
+	Address & getAddress();
 
 };
 

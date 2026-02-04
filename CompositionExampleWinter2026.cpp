@@ -14,6 +14,10 @@ int main()
 	hrDept.setAddress(dep1Address);
 
 	hrDept.getAddress().printAddress();
+
+	hrDept.getAddress().setStreet("8 Mile");
+
+	hrDept.getAddress().printAddress();
 	
 }
 
